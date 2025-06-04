@@ -1,4 +1,4 @@
-# pwm-generator-verilog
+# PWM Generator (Verilog)
 
 This is a simple 8-bit Pulse Width Modulation (PWM) generator module written in Verilog, along with a testbench for simulation.
 
