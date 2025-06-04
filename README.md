@@ -3,11 +3,12 @@
 This is a simple 8-bit Pulse Width Modulation (PWM) generator module written in Verilog, along with a testbench for simulation.
 
 ## Features
-- Parameterized 8-bit duty cycle
-- Invert output option
-- Enable control signal
-- Handles edge cases like 0% and 100% duty
-- Synchronous counter with async reset
+- **8-bit Duty Cycle Resolution** — Provides 256 discrete levels of output pulse width.
+- **Synchronous Operation** — Clocked by a system clock with asynchronous reset support.
+- **Invert Output Option** — Supports signal inversion to flip active-high/low behavior.
+- **Enable Control** — Clean output disable capability.
+- **100% & 0% Duty Cycle Handling** — Explicitly managed edge cases.
+- **Designed for Simulation** — Includes full testbench with 10 functional test cases.
 
 ## Files
 - `src/pwm.v`: Main Verilog module
