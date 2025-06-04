@@ -7,7 +7,7 @@ This is a simple 8-bit Pulse Width Modulation (PWM) generator module written in 
 - **Synchronous Operation** — Clocked by a system clock with asynchronous reset support.
 - **Invert Output Option** — Supports signal inversion to flip active-high/low behavior.
 - **Enable Control** — Clean output disable capability.
-- **100% & 0% Duty Cycle Handling** — Explicitly managed edge cases.
+- **100% Duty Cycle Handling** — Explicitly managed edge case.
 - **Designed for Simulation** — Includes full testbench with 10 functional test cases.
 
 ## Files
