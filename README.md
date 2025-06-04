@@ -20,3 +20,5 @@ Use ModelSim or any Verilog simulator:
 ```sh
 vlog src/pwm.v tb/pwm_tb.v
 vsim pwm_tb
+```
+This project was tested using Intel Quartus Prime Lite 24.1 and ModelSim-Intel Starter Edition
